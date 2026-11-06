@@ -1,8 +1,245 @@
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Ana Carolina Sousa Ferreira | Portfólio </title>
-        <link href="img/icone.png" rel="shortcut icon" />
-    </head>
-    <body></body>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ana Carolina Sousa Ferreira | Portfólio </title>
+    <link href="img/icone.png" rel="shortcut icon" />
+    <link href="css/estilo.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="cabecalho"><!-- Cabeçalho do conteudo da pagina-->
+        <div class="container">
+            <a href="#" class="nome">&lt;<span>Carol</span>/&gt;</a>
+
+            <nav class="menu"><!-- area de navegação / menu-->
+                <a href="#Sobre">Sobre</a>
+                <a href="#Informação">Informação</a>
+                <a href="#Cursos">Cursos</a>
+                <a href="#Projetos">Projetos</a>
+                <a href="#Contatos">Contatos</a>
+            </nav>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+        </div>
+        </div>
+    </header>
+
+    <main><!--comteudo principal da pagina-->
+        <section class="apresentacao"> <!--Área de apresentação-->
+            <div class="container"><!--DIV GERAL-->
+                <div class="apresentacao-texto"><!--DIV Texto-->
+                    <span class="tag-secao"> &lt;DETERMINATION/&gt;</span>
+
+                    <h1 class="apresentacao-titulo">Ana Carolina <span class = "destaque">Sousa Ferreira</span></h1>
+
+                    <h3 class="apresentacao-cargo">Desenvolvedora Front-End em formação</h3>
+
+                    <p class="apresentacao-bio">Estudante de ADS</p>
+
+                    <div class="apresentacao-botoes">
+                        <a href="#" class="botao botao-primario"> Ver projetos</a>
+                        <a href="#" class="botao botao-secundario"> Fale comigo </a>
+                    </div>
+                </div>
+
+                <div class="apresentacao-foto"><!--DIV da Foto-->
+                    <img src="https://uploads.onecompiler.io/44zmg4r7y/44zmg275s/ChatGPT%20Image%2018%20de%20set.%20de%202026,%2020_33_27%20(1).png" width="50%" />
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= SOBRE MIM ======================= -->
+        <section class="sobre" id="sobre">
+            <div class="container">
+                <span class="tag-secao">&lt;sobre-mim&gt;</span>
+                <h2 class="titulo-secao">Um pouco sobre mim</h2>
+                <p class="subtitulo-secao">Quem está por trás do código.</p>
+
+                <div class="sobre-grid">
+                    <div class="sobre-texto">
+                        <p>
+                            Comecei a estudar programação por curiosidade e me encontrei no
+                            front-end: gosto de ver uma interface ganhar vida na tela e de
+                            pensar em como facilitar a vida de quem vai usar o que eu
+                            construo.
+                        </p>
+                        <p>
+                            Hoje estudo HTML, CSS e estou avançando para JavaScript,
+                            sempre buscando aprender fazendo — cada projeto novo é uma
+                            desculpa para testar algo que ainda não sei.
+                        </p>
+                    </div>
+
+                    <ul class="info-rapida">
+                        <li><span class="rotulo">Localização:</span> São Paulo, SP</li>
+                        <li><span class="rotulo">email:</span> sousaferreiraanacarolina@gmail.com</li>
+                        <li><span class="rotulo">Foco:</span> Front-end</li>
+                        <li><span class="rotulo">Idiomas:</span> Ingles,português,espanhol</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= FORMAÇÃO ACADÊMICA ======================= -->
+        <section class="formacao" id="formacao">
+            <div class="container">
+                <span class="tag-secao">&lt;formacao-academica&gt;</span>
+                <h2 class="titulo-secao">Formação acadêmica</h2>
+                <p class="subtitulo-secao">Minha trajetória de estudos até aqui.</p>
+
+                <ul class="linha-tempo">
+                    <li class="item-tempo">
+                        <p class="periodo">2026 — atual</p>
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <p class="instituicao">Faculdade Tecnológica de São Paulo</p>
+                        <p>Curso técnico superior com foco em desenvolvimento de software, banco de dados e programação
+                            web.</p>
+                    </li>
+
+                    <li class="item-tempo">
+                        <p class="periodo">2020 — 2021</p>
+                        <h3>Ensino Médio Escola SESI-SP de Bebedouro</h3>
+                        <p class="instituicao">SESI-SP (CE 110)</p>
+                        <p>Primeiro contato com lógica de programação, redes e montagem de computadores.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- ======================= CURSOS ======================= -->
+        <section class="cursos" id="cursos">
+            <div class="container">
+                <span class="tag-secao">&lt;cursos-e-certificados&gt;</span>
+                <h2 class="titulo-secao">Cursos e certificados</h2>
+                <p class="subtitulo-secao">O que venho estudando por conta própria.</p>
+
+                <div class="cursos-grid">
+                    <div class="curso-card">
+                        <div class="curso-icone">🌐</div>
+                        <h3>HTML5 e CSS3 na prática</h3>
+                        <p>Fundamentos de estruturação e estilização de páginas web.</p>
+                        <span class="curso-carga">40h</span>
+                    </div>
+
+                    <div class="curso-card">
+                        <div class="curso-icone">📱</div>
+                        <h3>Privacidade e Proteção de Dados (LGPD)</h3>
+                        <p>Reconhecer o princípio de privacidade no contexto digital atual. Identificar os direitos que
+                            a LGPD assegura aos titulares dos dados.</p>
+                        <span class="curso-carga">04h</span>
+                    </div>
+
+                    <div class="curso-card">
+                        <div class="curso-icone">🔧</div>
+                        <h3>Git e GitHub</h3>
+                        <p>Controle de versão e colaboração em projetos de código.</p>
+                        <span class="curso-carga">15h</span>
+                    </div>
+
+                    <div class="curso-card">
+                        <div class="curso-icone">⚡</div>
+                        <h3>Eletricista Industrial</h3>
+                        <p>Instalar sistemas eletroeletrônicos, de acordo com normas técnicas, de qualidade, de saúde e
+                            segurança no trabalho e de meio ambiente.</p>
+                        <span class="curso-carga">1.896h</span>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================= PROJETOS ======================= -->
+        <section class="projetos" id="projetos">
+            <div class="container">
+                <span class="tag-secao">&lt;meus-projetos&gt;</span>
+                <h2 class="titulo-secao">Projetos</h2>
+                <p class="subtitulo-secao">Alguns trabalhos que desenvolvi para praticar o que aprendi.</p>
+                <div class="projetos-grid">
+                    <div class="projeto-card">
+                        <div class="projeto-imagem">
+                            <img src="https://uploads.onecompiler.io/44zmg4r7y/44zmg275s/projeto1.svg" alt="Tela do projeto App do Tempo">
+                        </div>
+                        <div class="projeto-corpo">
+                            <h3>App do Tempo</h3>
+                            <p>Página que mostra a previsão do tempo com um layout simples e cartões informativos.</p>
+                            <div class="projeto-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Flexbox</span>
+                            </div>
+                            <div class="projeto-links">
+                                <a href="#">Ver projeto</a>
+                                <a href="#">Código-fonte</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projeto-card">
+                        <div class="projeto-imagem">
+                            <img src="https://uploads.onecompiler.io/44zmg4r7y/44zmg275s/projeto2.svg" alt="Tela do projeto Loja Virtual">
+                        </div>
+                        <div class="projeto-corpo">
+                            <h3>Catálogo de Loja Virtual</h3>
+                            <p>Vitrine de produtos com cartões organizados em grade e botões de compra.</p>
+                            <div class="projeto-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Grid</span>
+                            </div>
+                            <div class="projeto-links">
+                                <a href="#">Ver projeto</a>
+                                <a href="#">Código-fonte</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projeto-card">
+                        <div class="projeto-imagem">
+                            <img src="https://uploads.onecompiler.io/44zmg4r7y/44zmg275s/projeto3.svg" alt="Tela do projeto Lista de Tarefas">
+                        </div>
+                        <div class="projeto-corpo">
+                            <h3>Lista de Tarefas</h3>
+                            <p>Interface para organizar tarefas do dia a dia, separadas por status de conclusão.</p>
+                            <div class="projeto-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="projeto-links">
+                                <a href="#">Ver projeto</a>
+                                <a href="#">Código-fonte</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ======================= CONTATO / RODAPÉ ======================= -->
+    <footer class="contato" id="contato">
+        <div class="container">
+            <span class="tag-secao">&lt;contato&gt;</span>
+            <h2 class="titulo-secao">Vamos conversar?</h2>
+            <p class="subtitulo-secao">Estou aberta a estágios, projetos e trocas de ideia sobre front-end.</p>
+
+            <div class="contato-botoes">
+                <a href="mailto:email@email.edu.br" class="botao botao-primario">Enviar e-mail</a>
+            </div>
+
+            <div class="redes-sociais">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+            </div>
+
+            <p class="rodape-texto">&lt;/&gt; feito com HTML e CSS</p>
+        </div>
+    </footer>
+</body>
+
 </html>
